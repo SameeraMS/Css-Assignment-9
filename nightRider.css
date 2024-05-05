@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.title {
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 5px;
+}
+
+.box{
+    background: white;
+    width: 150px;
+    height: 50px;
+}
+
+.button{
+    margin-top: 20px;
+}
+
+.btn{
+    width: 100px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.lightOn{
+    background-color: red;
+    box-shadow: #ec6464 0px 0px 10px 5px;
+}
+.lightOn2{
+    background-color: rgba(255, 62, 62, 0.81);
+    box-shadow: #ff4848 0px 0px 10px 5px;
+}
+.lightOn3{
+    background-color: rgba(255, 132, 132, 0.86);
+    box-shadow: #ff8181 0px 0px 10px 5px;
+}
